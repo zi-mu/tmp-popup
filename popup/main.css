@@ -1,0 +1,22 @@
+   /*插件开始,弹出框*/
+   .yo-popup {
+       position: fixed;
+       background: #fff;
+       border: 4px solid;
+       padding: 30px;
+       z-index: 1000;
+       font-family: sans-serif;
+       width: 300px;
+       height: 50px;
+   }
+
+   /*遮罩*/
+   .yo-mask {
+       position: fixed;
+       background: rgba(0, 0, 0, .7);
+       top: 0;
+       bottom: 0;
+       left: 0;
+       right: 0;
+       z-index: 999;
+   }
